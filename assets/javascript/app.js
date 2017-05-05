@@ -4,7 +4,7 @@ $(document).ready(function() {
   var queryURL = "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC";
 
   $.ajax({
-      url: "http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
+      url: "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC",
       method: 'GET'
   }).done(function(response) {
       console.log("WooHoo");
