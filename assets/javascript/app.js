@@ -24,8 +24,13 @@ $(document).ready(function() {
         console.log(url); 
 
         // make a new image tag
+        var flowerName = document.getElementById("myImg");
         // set src attr to url
+        $("#flower").attr("src");
         // append to the DOM
+        flowerName.appendChild();
+        document.getElementById("flowerName").appendChild();
+        console.log("WooHoo");
       }
     });
   }
